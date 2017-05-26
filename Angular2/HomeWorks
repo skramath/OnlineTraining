@@ -1,0 +1,35 @@
+Session 1:
+-----------
+1. Create a writeup about Interface vs Class in TypeScript
+2.  Go to codepen.io , create a new Pen, select TypeScript in JS window. 
+
+Now in the TypeScript file do the following:  
+
+	1. Create a class MyFirstTSClass 
+	2. Declare a variable called className of type string in the class
+	3. In the constructor of the class, set the value of className as "My First TS Class"
+	4. Create a  method in the class called print(). In this class, log the value of the variable className to the console. 
+
+	Make sure that this code compiles in your local .ts file using tsc .
+
+
+
+
+
+Session 2:
+-----------
+Explore: 
+https://cli.angular.io/reference.pdf	
+yeoman.io/
+
+Read about the following and create brief notes
+	TypeScript Language service.
+	What is e2e testing? 
+	Difference between e2e testing and unit testing.
+	RxJS http://reactivex.io/rxjs/
+	Protractor, Karma & Jasmine
+
+Session 3:
+Ngswitch
+NgClass
+Ngnonbindable

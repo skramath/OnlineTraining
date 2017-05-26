@@ -1,0 +1,4 @@
+Whats the library and Framework?
+ > what ever third party code calls your code is a framework.
+ > what ever third party code called by your code is a library.
+ 

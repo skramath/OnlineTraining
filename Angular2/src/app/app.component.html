@@ -1,0 +1,12 @@
+<h1>
+  {{title}}
+</h1>
+<ul>
+	<li	*ngFor = "let country of countries">{{country}}</li>
+	<li	*ngFor = "let country of countries">{{country.name}} - {{country.population}}</li>
+	<li>Below result is  coming from Custom Component</li>
+	<li  *ngFor = "let country of countries">
+		<app-list-item [country]="country" *ngIf="country.population > 100"></app-list-item>
+	</li>
+	<button (click)="changeData()">Change Date</button>
+</ul>
