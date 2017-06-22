@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+﻿import { Component } from '@angular/core';
 import { ListItemComponent } from './list-item/list-item.component';
 
 @Component({
@@ -7,11 +7,11 @@ import { ListItemComponent } from './list-item/list-item.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'This is my First Apps';
+  title = 'AppComponent Values';
   countries : any[];
   constructor()
   /*{
-  	this.countries=['USA','CHINA','INDIA','RUSSIA'];
+  	this.countries=['USA','CHINA','INDIA','America'];
   }*/
   {
   	this.countries = [{

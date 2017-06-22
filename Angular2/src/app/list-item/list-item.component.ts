@@ -1,4 +1,4 @@
-import { Component, OnInit,Input} from '@angular/core';
+﻿import { Component, OnInit,Input} from '@angular/core';
 
 @Component({
   selector: 'app-list-item',
@@ -9,8 +9,12 @@ export class ListItemComponent implements OnInit {
   
   @Input() country : any;
   constructor() { 
-  	this.country = "China";
   	
+  	
+  }
+
+  findPopulation() {
+          this.country.population = 12032;
   }
 
   ngOnInit() {

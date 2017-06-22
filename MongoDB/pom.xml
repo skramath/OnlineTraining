@@ -2,23 +2,62 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>learn.sarath.m101j</groupId>
+    <parent>
+		<groupId>com.online.training</groupId>
+		<artifactId>onlinetraining</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>learn.mongodb.m101j</groupId>
     <artifactId>mongodb-learn</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>Contains modules that are deployed to the batch serversor all mongoBD leanrning</description>
+    <description>MongoDB Online Training</description>
     <name>MongoDB-Learn</name>
     <properties>
         <site.basedir>${project.parent.basedir}</site.basedir>
     </properties>
     <modules>
-        
         <module>Week1</module>
         <module>Week2</module>
         <module>Week3</module>
         <module>Week4</module>
     </modules>
+	
+	 <dependencies>
+		<dependency>
+		<groupId>org.mongodb</groupId>
+		<artifactId>mongo-java-driver</artifactId>
+		<version>2.12.3</version>
+	</dependency>
+		<dependency>
+		    <groupId>com.sparkjava</groupId>
+		    <artifactId>spark-core</artifactId>
+		    <version>1.1.1</version>
+		</dependency>
+
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.19</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.7</version>
+        </dependency>   
+	
+	</dependencies>
+	
     <build>  
 	    <plugins>
 		    <plugin>
