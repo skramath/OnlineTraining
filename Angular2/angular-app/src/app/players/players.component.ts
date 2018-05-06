@@ -9,7 +9,7 @@ export class PlayersComponent {
 
  teamName = 'Gladiator Cricket Team';
  players:string[] = ["Sarath","Nikil","Partibhan","Abbas","Kunal"];
-
+ 
  addPlayer(pName):void{
    console.log("Adding new Player :"+pName);
    this.players.push(pName);

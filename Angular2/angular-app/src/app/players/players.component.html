@@ -14,4 +14,12 @@
     <button name="removePlayer" (click)="removePlayer(pname.value)">Remove</button>
   </div>
 
+  <div>
+    Finding the Run Rate <br/><br/><br/>
+    Matches : <input type="matches" name="matches" [(ngModel)]="matches"/>
+    Runs    : <input type="runs" name="runs" [(ngModel)]="runs"/>
+    Not Out : <input type="notout" name="notout" [(ngModel)]="notout"/>
+    Average : {{runs / matches - notout}}
+</div>
+
   <app-root></app-root>
