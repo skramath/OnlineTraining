@@ -1,0 +1,17 @@
+<div item-width="100px">
+    <div item-width="50px"><h1>{{teamName}}</h1></div>
+    <div item-width="10px"><img alt="logo" src="assets/images.jpg"></div>
+</div>
+
+<h1>Player Names</h1>
+  <ul>
+    <li *ngFor="let player of players">{{player}}</li>    
+  </ul>
+
+  <div>
+    Enter New Player : <input type="text" name="pname" #pname/>
+    <button name="addPlayer" (click)="addPlayer(pname.value)">Add</button>
+    <button name="removePlayer" (click)="removePlayer(pname.value)">Remove</button>
+  </div>
+
+  <app-root></app-root>
