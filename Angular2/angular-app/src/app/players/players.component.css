@@ -18,3 +18,25 @@ h2{
     padding: 5px;
     font-size: 10;
 }
+
+.big{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.blue{
+    color:blueviolet; 
+}
+
+p {
+    color: DarkGray;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+ test {
+     color: Black;
+     border: 1px solid rebeccapurple;
+     padding: 9px;
+   }

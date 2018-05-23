@@ -4,10 +4,8 @@
 </div>
 
 <h1>Player Names</h1>
-  <ul>
-    <li *ngFor="let player of players">{{player}}</li>    
-  </ul>
-
+   <p appHighlight *ngFor="let player of players">{{player}}</p>    
+  
   <div>
     Enter New Player : <input type="text" name="pname" #pname/>
     <button name="addPlayer" (click)="addPlayer(pname.value)">Add</button>
@@ -22,4 +20,9 @@
     Average : {{runs / matches - notout}}
 </div>
 
+<div [ngClass]="twowaybinding">Cricket is my Life</div>
+  <input type="checkbox" name="txtSize" [(ngModel)]="twowaybinding.big"/>Big
+  <input type="checkbox" name="txtSize" [(ngModel)]="twowaybinding.blue"/>Color
+
   <app-root></app-root>
+  <app-pipex></app-pipex>

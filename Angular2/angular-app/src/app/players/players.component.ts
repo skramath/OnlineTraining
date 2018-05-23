@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AppComponent} from '../app.component';
+
 @Component({
   selector: 'app-players',
   templateUrl: './players.component.html',
@@ -19,6 +20,8 @@ export class PlayersComponent {
     this.players.pop();
     
   }
+
+  twowaybinding={"big":true,"blue":true};
 
 }
 
