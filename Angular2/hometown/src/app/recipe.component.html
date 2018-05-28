@@ -1,6 +1,6 @@
 
 
 <div class="row" style="border:1px solid blue">
-   <div class="col-md-6"><app-recipelist></app-recipelist></div>
-   <div class="col-md-6"><app-recipedetail></app-recipedetail></div>
+   <div class="col-md-6"><app-recipelist (recipeSelected)="selectedReceipe=$event"></app-recipelist></div>
+   <div class="col-md-6"><app-recipedetail [selectedReceipe]=selectedReceipe></app-recipedetail></div>
 </div>

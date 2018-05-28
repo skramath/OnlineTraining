@@ -1,3 +1,22 @@
-<p>
-  recipedetail works!
-</p>
+<div class="row">
+  <div class="col-md-12">
+    <img src={{selectedReceipe?.imgPath}} class="img-responsive" width="400" height="400" alt=""/>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">{{selectedReceipe?.name}}</div>
+</div>
+<div class="row">
+    <div class="col-md-12">{{selectedReceipe?.desc}}</div>
+</div>
+<div class="row">
+    <div class="col-md-12">{{selectedReceipe?.price}}</div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <button class="btn btn-success">Add to Cart</button>
+    <button class="btn btn-warning">Edit</button>
+    <button class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+    
