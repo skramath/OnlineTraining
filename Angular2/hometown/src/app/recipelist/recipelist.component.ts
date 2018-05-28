@@ -9,11 +9,11 @@ import {Recipe} from '../recipe';
 export class RecipelistComponent implements OnInit {
   
   recipes:Recipe[]=[
-    new Recipe('Kerala Sadya','Authentic Kerala Sadya','200','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi9962-DnMcA_ELFNRqdUfph4OTU8uJmILNagfGxgtLpqIWv7R'),
-    new Recipe('Beef Chilly','Spicy Beef Chilly','120','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-2uFlePRMIB-Lx44SEKd4AbMJMouQkrzqAFYjSOq-IV7WijR8'),
-    new Recipe('Malabar Biriyani','Malabhar Dum Biriyani','250','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3J9I1gosnT5UzaoPWIiByBrQ9zddmRBjtoiu0jF5W0DqfxaQ'),
+    new Recipe('Kerala Sadya','Authentic Kerala Sadya','200','https://blog.travelkhana.com/tkblog/wp-content/uploads/sites/2/2017/03/Sadya.png'),
+    new Recipe('Beef Chilly','Spicy Beef Chilly','120','http://cdn.subyskitchen.com/wp-content/uploads/2016/04/Beef-Fry1.jpg '),
+    new Recipe('Malabar Biriyani','Malabhar Dum Biriyani','250','https://lh6.ggpht.com/_OGMa3JuKVTk/TG8Zw0ADtsI/AAAAAAAAEMg/pne4wXPq0eU/DSC_0323_thumb%5B13%5D.jpg'),
     new Recipe('Kerala Poratta','Made of Soft Plain Flour Dough ','30','https://i.ndtvimg.com/i/2015-03/parota_625x350_71425788503.jpg'),
-    new Recipe('Unni Appam','Sweet and Tasty','25','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4kTLkeYNDZyn2IgbGTwd39WhcjuxwcmLwq-ic3ggvXVrydF0')
+    new Recipe('Chicken Lollypop','Mouth watering taste','150','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrdchFoKThnHU3r5tocd2uRpd7WQOJmiroxPtH3sGu9-lKWGKI')
   ];
   constructor() { }
 
