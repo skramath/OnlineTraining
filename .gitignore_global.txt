@@ -1,7 +1,17 @@
-# ignore a single file
+# ignore maven related project
+target/
 *.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
 
 # ignore eclipse related files
 .classpath
 .project
+.setting/
+
 
