@@ -1,4 +1,6 @@
+
 # ignore maven related project
+
 */*/target
 */*.class
 */*.jar
@@ -6,10 +8,12 @@
 */*.ear
 */*.logs
 
+
 # ignore eclipse related files
-*/.eclipse
-*/.classpath
-*/.project
+
+*/*/.eclipse
+*/*/.classpath
+*/*/.project
 */*/.settings
 */*/bin
 
