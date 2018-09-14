@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: edu.aspire.test.SpringJdbcTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.807 s <<< FAILURE! - in edu.aspire.test.SpringJdbcTest
+testSpringJdbc(edu.aspire.test.SpringJdbcTest)  Time elapsed: 1.186 s  <<< ERROR!
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; ]; Duplicate entry '1' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+	at edu.aspire.test.SpringJdbcTest.testSpringJdbc(SpringJdbcTest.java:46)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+	at edu.aspire.test.SpringJdbcTest.testSpringJdbc(SpringJdbcTest.java:46)
+
