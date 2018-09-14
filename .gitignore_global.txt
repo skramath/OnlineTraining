@@ -1,0 +1,7 @@
+# ignore a single file
+*.class
+
+# ignore eclipse related files
+.classpath
+.project
+
