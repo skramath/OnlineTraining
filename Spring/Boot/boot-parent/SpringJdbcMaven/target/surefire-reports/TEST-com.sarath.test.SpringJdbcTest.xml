@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.sarath.test.SpringJdbcTest" time="1.556" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\PlayGround\project\OnlineTraining\Spring\Boot\boot-parent\SpringJdbcMaven\target\test-classes;C:\PlayGround\project\OnlineTraining\Spring\Boot\boot-parent\SpringJdbcMaven\target\classes;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-jdbc\4.3.2.RELEASE\spring-jdbc-4.3.2.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-beans\5.0.6.RELEASE\spring-beans-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-core\5.0.6.RELEASE\spring-core-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-jcl\5.0.6.RELEASE\spring-jcl-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-tx\5.0.6.RELEASE\spring-tx-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-context\4.3.2.RELEASE\spring-context-4.3.2.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-aop\5.0.6.RELEASE\spring-aop-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-expression\5.0.6.RELEASE\spring-expression-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-test\4.3.2.RELEASE\spring-test-4.3.2.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\xerial\sqlite-jdbc\3.7.2\sqlite-jdbc-3.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Nordea\java-windows\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SKOILO~1.NDA\AppData\Local\Temp\surefire4243326080847538\surefirebooter8915893827106045394.jar C:\Users\s.koiloth.ramath.NDA\AppData\Local\Temp\surefire4243326080847538 2018-10-16T15-13-02_475-jvmRun1 surefire2765849639158930895tmp surefire_07539105306355677176tmp"/>
+    <property name="surefire.test.class.path" value="C:\PlayGround\project\OnlineTraining\Spring\Boot\boot-parent\SpringJdbcMaven\target\test-classes;C:\PlayGround\project\OnlineTraining\Spring\Boot\boot-parent\SpringJdbcMaven\target\classes;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-jdbc\4.3.2.RELEASE\spring-jdbc-4.3.2.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-beans\5.0.6.RELEASE\spring-beans-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-core\5.0.6.RELEASE\spring-core-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-jcl\5.0.6.RELEASE\spring-jcl-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-tx\5.0.6.RELEASE\spring-tx-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-context\4.3.2.RELEASE\spring-context-4.3.2.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-aop\5.0.6.RELEASE\spring-aop-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-expression\5.0.6.RELEASE\spring-expression-5.0.6.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\springframework\spring-test\4.3.2.RELEASE\spring-test-4.3.2.RELEASE.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\s.koiloth.ramath.NDA\.m2\repository\org\xerial\sqlite-jdbc\3.7.2\sqlite-jdbc-3.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\s.koiloth.ramath.NDA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Nordea\java-windows\jre"/>
+    <property name="basedir" value="C:\PlayGround\project\OnlineTraining\Spring\Boot\boot-parent\SpringJdbcMaven"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SKOILO~1.NDA\AppData\Local\Temp\surefire4243326080847538\surefirebooter8915893827106045394.jar"/>
+    <property name="sun.boot.class.path" value="C:\Nordea\java-windows\jre\lib\resources.jar;C:\Nordea\java-windows\jre\lib\rt.jar;C:\Nordea\java-windows\jre\lib\sunrsasign.jar;C:\Nordea\java-windows\jre\lib\jsse.jar;C:\Nordea\java-windows\jre\lib\jce.jar;C:\Nordea\java-windows\jre\lib\charsets.jar;C:\Nordea\java-windows\jre\lib\jfr.jar;C:\Nordea\java-windows\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="s.koiloth.ramath"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Nordea\java-windows\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\s.koiloth.ramath.NDA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SKOILO~1.NDA\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="C:\PlayGround\project\OnlineTraining\Spring\Boot\boot-parent\SpringJdbcMaven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Nordea\java-windows\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre1.8.0_181/bin/client;C:/Program Files (x86)/Java/jre1.8.0_181/bin;C:/Program Files (x86)/Java/jre1.8.0_181/lib/i386;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\s.koiloth.ramath.NDA\AppData\Local\Microsoft\WindowsApps;;C:\Nordea\IDE\STS-3.9.5-win32\sts-bundle\sts-3.9.5.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="C:\Nordea\java-windows\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testSpringJdbc" classname="com.sarath.test.SpringJdbcTest" time="0.692"/>
+</testsuite>

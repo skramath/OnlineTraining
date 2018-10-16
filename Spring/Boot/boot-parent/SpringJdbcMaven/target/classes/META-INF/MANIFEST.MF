@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringJdbcMaven
+Implementation-Version: 1.0
+Built-By: s.koiloth.ramath
+Implementation-Vendor-Id: jdbc.maven
+Build-Jdk: 1.8.0_181
+Implementation-URL: www.java2aspire.com
+Created-By: Maven Integration for Eclipse
+
