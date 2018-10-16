@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.autoboot.test.SpringJdbcTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.522 s <<< FAILURE! - in com.autoboot.test.SpringJdbcTest
+testSpringJdbc(com.autoboot.test.SpringJdbcTest)  Time elapsed: 0.239 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'empdao' available
+	at com.autoboot.test.SpringJdbcTest.testSpringJdbc(SpringJdbcTest.java:28)
+
